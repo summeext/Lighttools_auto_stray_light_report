@@ -15,5 +15,8 @@ __pycache__/
 # Claude Code 配置
 .claude/
 
+# 自动生成的宏文件
+*.ltb
+
 # 临时文件
 save_chart_params.txt
