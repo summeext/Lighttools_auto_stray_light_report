@@ -1,0 +1,9 @@
+REM illumChart.1.ltb ¡ª auto-generated
+LTBSET UPDATE 0
+LTBSET DIALOG 0
+OPEN "C:\\Users\\xutian\\Projects\\auto_stray_light_version_2\\intensity\\save_chart_params.txt" FOR INPUT AS #1
+INPUT #1, filePath$
+CLOSE #1
+LTCMD "PrintToFile" + " " + LTSTR$(filePath$)
+LTBSET UPDATE 1
+END

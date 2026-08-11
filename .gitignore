@@ -1,0 +1,19 @@
+# 打包产物
+dist/
+
+# 运行输出（每次运行都会重新生成）
+output/
+*.bmp
+*.csv
+*.xlsx
+*.xlsm
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# Claude Code 配置
+.claude/
+
+# 临时文件
+save_chart_params.txt
