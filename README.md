@@ -121,7 +121,6 @@ python intensity/intensity_main.py
 │   ├── requirements.txt
 │   └── dist/
 │       └── Stray_Light_Analysis_Intensity.exe
-└── 使用说明_文字版_后续会添加图片说明.txt
 ```
 
 ## License
